@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+	===============================
+	Begin Style
+	===============================
+*/
+
+/*
+	===============================
+	Typography
+	===============================
+*/
+body {
+	font-family: Arial, sans-serif;
+}
+
+
+/*
+	===============================
+	Links
+	===============================
+*/
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+	===============================
+	Header
+	===============================
+*/
+.hbar {
+	text-align: right;
+	margin-right: 27px;
+	margin-top: 27px
+}
+
+/*
+	===============================
+	Body
+	===============================
+*/
+.Google-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 30px;
+}
+center {
+	margin-top: 30px;
+}
+button {
+	width: 133px;
+	height: 30px;
+	margin-left: 5px;
+	border-style: none;
+	border-radius: 4%;
+	background-color: #f1f1f1;
+}
+
+/*
+	===============================
+	Footer
+	===============================
+*/
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 15px;
+	min-width: 980px;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2
+}
+.fbar {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: -14px;
+	width: 100%;
+}
+.google-services {
+	padding-left: 27px;
+	margin: 0;
+}
+#fsl {
+
+}
+#fsr {
+	float: right;
+	margin-left: auto;
+	text-align: right;
+}
